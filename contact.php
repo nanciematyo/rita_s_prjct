@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margarita Ambartsumian || Contact</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img
+            src="./images/logo-1-rita.svg"
+            class="nav-logo"
+            alt="nav logo"
+          />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="./index.php">home</a></li>
+          <li><a href="./projects.php">projects</a></li>
+          <li><a href="./contact.php">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li><a href="./index.php">home</a></li>
+
+          <li><a href="./projects.php">projects</a></li>
+          <li><a href="./contact.php">contact</a></li>
+        </ul>
+        <ul class="social-icons">
+          <!-- single item -->
+          <li>
+          <a
+            href="https://www.instagram.com/ritarmenia/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+                <a href="mailto:ambmargarita@gmail.com?subject=Photographer Inquiry" class="social-icon"
+                target="_blank" ><i class="far fa-envelope"></i
+              ></a>
+              </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+
+    <section class="section single-page">
+      <!-- section title -->
+      <div class="section-title">
+        <h1>contact</h1>
+        <div class="underline"></div>
+      </div>
+      <!-- end of section title -->
+      <div class="section-center page-info contact-info">
+        <!-- contact page-->
+        <p>
+          Если вы хотите связаться со мной для проведения съемки, то отправьте, пожалуйста, сообщение мне на почту <a href="mailto:mailto:ambmargarita@gmail.com?subject=Photographer Inquiry"><i class="far fa-envelope"></i></a>
+          <a href="mailto:mailto:ambmargarita@gmail.com?subject=Photographer Inquiry"> – ambmargarita@gmail.com</a>
+
+        </p>
+        <p>
+          Вы также можете написать мне в Telegram
+          <a href="https://t.me/ritarmenia" target="_blank">@ritarmenia </a>
+        </p>
+      </div>
+    </section>
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons">
+      <li>
+          <a
+            href="https://www.instagram.com/ritarmenia/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+                <a href="mailto:ambmargarita@gmail.com?subject=Photographer Inquiry" class="social-icon"
+                target="_blank" ><i class="far fa-envelope"></i
+              ></a>
+              </li>
+      </ul>
+      <p>&copy; <span id="date"></span> margarita ambartsumian. all rights reserved</p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
